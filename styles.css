@@ -125,3 +125,24 @@ footer {
  .app button {
     background: var(--dark);
  }
+
+ /* media query */
+ @media only screen and (max-width: 500px) {
+     h1 {
+         font-size: 1rem;
+     }
+ }
+
+ @media only screen and (max-width: 800px) {
+    .logo {
+        margin-right: 50px;
+    }
+
+     nav li {
+         display: none;
+     }
+
+     .hero_img img {
+        width: 30%;
+    }
+ }
